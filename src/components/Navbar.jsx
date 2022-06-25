@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="bg-indigo text-lightGray py-2">
       <div className="container mx-auto px-2 flex flex-col md:flex-row md:justify-between md:items-center">
-        <h1 className="text-3xl">Logo</h1>
+        <h1 className="text-3xl">Premastar Students</h1>
         <ul
           className={`flex flex-col overflow-hidden items-center  ease-in-out duration-300  ${
             nav ? "h-screen" : "h-0"
