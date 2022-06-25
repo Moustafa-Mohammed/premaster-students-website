@@ -5,7 +5,7 @@ import List from "./components/List";
 import Navbar from "./components/Navbar";
 function App() {
   return (
-    <div>
+    <div className="bg-purple-600">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
