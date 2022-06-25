@@ -46,7 +46,7 @@ const students = [
     name: "شروق أشرف",
     GPA: "جيد",
     imgURL: Shorouk,
-    description: "بتحب الدكتورة ريهام، ومصطفى هيجيب لها شلل قريب",
+    description: "بتحب الدكتورة ريهام، والدكتور هيجيب لها شلل قريب",
   },
   {
     id: uniqid(),
