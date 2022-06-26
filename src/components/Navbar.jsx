@@ -7,7 +7,7 @@ const Navbar = () => {
 
   const toggleNav = () => setNav(!nav);
   return (
-    <nav className=" py-2 fixed top-0 bg-white w-full z-10">
+    <nav className=" py-2 sticky top-0 bg-gray-100 w-full z-10 mb-12">
       <div className="container mx-auto px-2 flex flex-col md:flex-row md:justify-between md:items-center ">
         <h1 className="text-3xl text-purple-900">الفرقة الأولى</h1>
         <ul
@@ -15,14 +15,29 @@ const Navbar = () => {
             nav ? "h-screen" : "h-0"
           } md:flex-row md:h-auto font-bold text-purple-900 `}
         >
-          <NavLink to="/" className="p-4 md:p-2 cursor-pointer">
+          <NavLink
+            to="/"
+            className="p-4 md:p-2 cursor-pointer focus:text-red-500"
+          >
             الرئيسية
           </NavLink>
-          <NavLink to="/about" className="p-4 md:p-2 cursor-pointer ">
+          <NavLink
+            to="/about"
+            className="p-4 md:p-2 cursor-pointer focus:text-red-500"
+          >
             تعرف علينا
           </NavLink>
-          <NavLink to="/subjects" className="p-4 md:p-2 cursor-pointer">
+          <NavLink
+            to="/subjects"
+            className="p-4 md:p-2 cursor-pointer focus:text-red-500"
+          >
             المواد الدراسية
+          </NavLink>
+          <NavLink
+            to="/faqs"
+            className="p-4 md:p-2 cursor-pointer focus:text-red-500"
+          >
+            الأسئلة الأكثر شيوعا
           </NavLink>
           <NavLink
             to="/contact"

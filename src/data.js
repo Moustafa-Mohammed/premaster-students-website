@@ -8,6 +8,7 @@ import Hanan from "./images/Hanan.svg";
 import Amira from "./images/Amira.svg";
 import Manal from "./images/Manal.svg";
 import Mirna from "./images/Mirna.svg";
+import Deda from "./images/Deda.svg";
 
 const students = [
   {
@@ -47,14 +48,14 @@ const students = [
     GPA: "جيد",
     imgURL: Shorouk,
     description:
-      "بتحب الدكتورة ريهام، وعندها طاقة في المناهدة وبترد على الجملة بمقال",
+      "بتحب الدكتورة ريهام، عندها طاقة غير مُبررة في المناهدة، وبترد على الجملة بمقال",
   },
   {
     id: uniqid(),
     name: "حنان نادي",
     GPA: "جيد",
     imgURL: Hanan,
-    description: "مدمنة شاي بلبن، كان هيضيعها التيرم الماضي، وبنحاول نعالجها،",
+    description: "مدمنة شاي بلبن، كان هيضيعها التيرم الماضي، وبنحاول نعالجها",
   },
   {
     id: uniqid(),
@@ -69,7 +70,8 @@ const students = [
     name: "منال محمد",
     GPA: "جيد",
     imgURL: Manal,
-    description: "تكره الرجال، وتحب الدكتورة هناء",
+    description:
+      "بركة الدفعة، كل شوية تهددنا بسحب ملفها من الكلية، وفي الآخر نلاقيها معانا في المحاضرة، تكره الرجال، وتحب الدكتورة هناء",
   },
   {
     id: uniqid(),
@@ -77,7 +79,26 @@ const students = [
     GPA: "جيد",
     imgURL: Mirna,
     description:
-      "كان حلم حياتها تستفيد من الكلية، لكن الكلية هي اللي استفادت منها",
+      "كان حلم حياتها تستفيد من الكلية، لكن في الحقيقة الكلية هي اللي استفادت منها",
+  },
+  {
+    id: uniqid(),
+    name: "دعاء حكيم (ديدا حكيم)",
+    GPA: "جيد",
+    imgURL: Deda,
+    description:
+      "شخصية مهمة، دايمًا مستعجلة، غريبة والأكسنت بتاعتها أغرب منها، وعشان تفهمها، محتاج قاموس من الأمم المتحدة",
+  },
+];
+
+export const doctors = [
+  {
+    id: uniqid(),
+    name: "د. أحمد",
+    title: "أستاذ دكتور",
+    imgURL: Mostafa,
+    description:
+      "كاريزما، تسأله سؤال يجاوبك بعد سنة، شرحه جميل، يحببك في المادة، وفي الآخر يديك جيد",
   },
 ];
 
