@@ -4,10 +4,12 @@ import questions from "../questions.js";
 
 function FAQs() {
   return (
-    <div className="container h-screen flex flex-col w-full gap-6 mx-auto">
-      {questions.map((q) => (
-        <Question key={q.id} q={q} />
-      ))}
+    <div className="p-4">
+      <div className="container flex flex-col w-full gap-6 mx-auto shadow-lg p-6 max-w-2xl">
+        {questions.map((q) => (
+          <Question key={q.id} q={q} />
+        ))}
+      </div>
     </div>
   );
 }

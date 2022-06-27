@@ -1,7 +1,7 @@
 import React from "react";
 
-function Card({ student }) {
-  const { name, GPA, description, imgURL } = student;
+function Card({ item }) {
+  const { name, GPA, description, imgURL, title } = item;
   return (
     <figure className="bg-purple-100 rounded-xl p-2 md:p-4 shadow-lg hover:scale-105 transition duration-300">
       <img
@@ -12,7 +12,7 @@ function Card({ student }) {
       <div className="p-2 md:p-4 text-center space-y-4">
         <figcaption className="font-medium">
           <div className="text-purple-900 text-xl font-bold">{name}</div>
-          <div className="text-red-500">التقدير: {GPA}</div>
+          <div className="text-red-500">{GPA || title}</div>
         </figcaption>
 
         <blockquote>
