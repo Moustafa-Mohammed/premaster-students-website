@@ -22,7 +22,7 @@ const questions = [
     id: uniqid(),
     question:
       "هل يشترط اجتياز اختبارات IELTS أو TOEFL قبل انتهاء السنة التمهيدية الأولى؟",
-    answer: "بيقولوا",
+    answer: "خلاص يا حبيبي بح، القسم هيقفل",
   },
 ];
 export default questions;

@@ -13,7 +13,7 @@ const Navbar = () => {
         <ul
           className={`flex flex-col overflow-hidden items-center  ease-in-out duration-300  ${
             nav ? "h-screen" : "h-0"
-          } md:flex-row md:h-auto font-bold text-purple-900 `}
+          } md:flex-row md:h-auto font-bold text-purple-900 md:text-lg`}
         >
           <NavLink
             to="/"

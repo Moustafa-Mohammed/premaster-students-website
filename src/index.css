@@ -4,3 +4,9 @@
 body {
   font-family: "Amiri", serif;
 }
+
+@layer components {
+  .btn {
+    @apply px-5 py-2 shadow-lg transition hover:-translate-y-0.5 transform mt-2 text-lg rounded-lg;
+  }
+}

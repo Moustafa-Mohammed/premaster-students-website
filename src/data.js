@@ -8,7 +8,14 @@ import Hanan from "./images/Hanan.svg";
 import Amira from "./images/Amira.svg";
 import Manal from "./images/Manal.svg";
 import Mirna from "./images/Mirna.svg";
+import Shereen from "./images/Shereen1.svg";
 import Deda from "./images/Deda.svg";
+import DrHanaa from "./images/Dr-Hanaa.svg";
+import DrAhmed from "./images/Dr-Ahmed.svg";
+
+import ahmedSound from "./audio/ahmed.mp3";
+import mostafaSound from "./audio/mostafa.mp3";
+import drAhmedSound from "./audio/dr-ahmed.mp3";
 
 const students = [
   {
@@ -16,6 +23,7 @@ const students = [
     name: "مصطفى محمد",
     GPA: "التقدير: جيد",
     imgURL: Mostafa,
+    soundURL: mostafaSound,
     description: "أحسن واحد في الدفعة، دمه خفيف، ومش لاقي حظه في الدنيا",
   },
   {
@@ -23,6 +31,7 @@ const students = [
     name: "أحمد فتحي",
     GPA: "التقدير: جيد",
     imgURL: Ahmed,
+    soundURL: ahmedSound,
     description:
       "الدحيح، منفض لنا على جروب الواتس، وعامل فيها من بنها وبيظهر في الأنمي وبس",
   },
@@ -71,7 +80,7 @@ const students = [
     GPA: "التقدير: جيد",
     imgURL: Manal,
     description:
-      "بركة الدفعة، كل شوية تهددنا بسحب ملفها من الكلية، وفي الآخر نلاقيها معانا في المحاضرة، تكره الرجال، وتحب الدكتورة هناء",
+      "بركة الدفعة، كل شوية تهددنا بسحب ملفها من الكلية، وفي الآخر نلاقيها معانا في المحاضرة، موهوبة، عليها زغروطة، مش موجودة في أجدعها دي جي",
   },
   {
     id: uniqid(),
@@ -89,6 +98,14 @@ const students = [
     description:
       "شخصية مهمة، دايمًا مستعجلة، غريبة والأكسنت بتاعتها أغرب منها، وعشان تفهمها، محتاج قاموس من الأمم المتحدة",
   },
+  {
+    id: uniqid(),
+    name: "شيرين حسين",
+    GPA: "التقدير: جيد",
+    imgURL: Shereen,
+    description:
+      "شخصية غامضة، متعرفش شكلها بسكوتاية بس هتعورك، ولا شكلها هتعورك وهي فعلا بسكوتاية!",
+  },
 ];
 
 export const doctors = [
@@ -96,9 +113,18 @@ export const doctors = [
     id: uniqid(),
     name: "د. أحمد",
     title: "أستاذ دكتور",
-    imgURL: Mostafa,
+    imgURL: DrAhmed,
+    soundURL: drAhmedSound,
+    drAhmedSound,
     description:
-      "كاريزما، تسأله سؤال يجاوبك بعد سنة، شرحه جميل، يحببك في المادة، وفي الآخر يديك جيد",
+      "كاريزما، تسأله على الواتس يجاوبك بعد سنة، شرحه جميل، يحببك في المادة، وفي الآخر يديك جيد",
+  },
+  {
+    id: uniqid(),
+    name: "د. هناء",
+    title: "أستاذ دكتور",
+    imgURL: DrHanaa,
+    description: "ولو جادلت معاها، تتقمص وتغادر جروب الواتس",
   },
 ];
 

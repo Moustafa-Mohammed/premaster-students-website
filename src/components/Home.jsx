@@ -7,9 +7,10 @@ function Home() {
     <div className="h-screen flex flex-col justify-center items-center">
       <h1 className="text-3xl md:text-4xl mb-4 font-bold text-purple-900">
         <Typed
-          strings={["أهلًا بك في موقعنا", "اضغط على الزرّ للتعرف على الدفعة"]}
-          typeSpeed={100}
-          loop
+          strings={[
+            "أسرة الكلية وعنهم سيادة النائب العسل مصطفى تتمنى الشفاء العاجل للطالبة ميرنا، أدام الله عليها تمام الصحة والعافية",
+          ]}
+          typeSpeed={50}
         />
       </h1>
       <p className="text-slate-600 md:text-xl">
@@ -17,7 +18,7 @@ function Home() {
       </p>
       <Link
         to="/about"
-        className="px-5 py-2 shadow-lg text-white font-bold  bg-purple-900 rounded-lg hover:bg-purple-700 transition hover:-translate-y-0.5 transform mt-2 text-lg"
+        className="btn text-white font-bold  bg-purple-900  hover:bg-purple-700 "
       >
         تعرّف على الدفعة
       </Link>

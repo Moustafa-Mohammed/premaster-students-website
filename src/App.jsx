@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import FAQs from "./components/FAQs";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import List from "./components/List";
 import Navbar from "./components/Navbar";
@@ -16,6 +17,7 @@ function App() {
         <Route path="subjects" element={<List items={doctors} />} />
         <Route path="faqs" element={<FAQs />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
