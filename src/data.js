@@ -15,6 +15,7 @@ import DrAhmed from "./images/Dr-Ahmed.svg";
 
 import ahmedSound from "./audio/ahmed.mp3";
 import mostafaSound from "./audio/mostafa.mp3";
+import manalSound from "./audio/manal.mp3";
 import drAhmedSound from "./audio/dr-ahmed.mp3";
 
 const students = [
@@ -79,6 +80,7 @@ const students = [
     name: "منال محمد",
     GPA: "التقدير: جيد",
     imgURL: Manal,
+    soundURL: manalSound,
     description:
       "بركة الدفعة، كل شوية تهددنا بسحب ملفها من الكلية، وفي الآخر نلاقيها معانا في المحاضرة، موهوبة، عليها زغروطة، مش موجودة في أجدعها دي جي",
   },
@@ -104,7 +106,7 @@ const students = [
     GPA: "التقدير: جيد",
     imgURL: Shereen,
     description:
-      "شخصية غامضة، متعرفش شكلها بسكوتاية بس هتعورك، ولا شكلها هتعورك وهي فعلا بسكوتاية!",
+      "شخصية غامضة، متعرفش شكلها بسكوتاية وهي هتعورك، ولا شكلها هتعورك وهي بسكوتاية!",
   },
 ];
 
@@ -124,7 +126,8 @@ export const doctors = [
     name: "د. هناء",
     title: "أستاذ دكتور",
     imgURL: DrHanaa,
-    description: "ولو جادلت معاها، تتقمص وتغادر جروب الواتس",
+    description:
+      "مركز استقبال الشكاوى، تسمع مشكلتك، وتلبسك في منهج كبير، وامتحانات مضغوطة، وتضيع تقديرك، ولو جادلت معاها على الواتس، تتقمص وتغادر جروب الواتس",
   },
 ];
 
