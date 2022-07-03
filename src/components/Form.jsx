@@ -62,6 +62,7 @@ function Form() {
       username === "شيماء" ||
       username === "حنان" ||
       username === "أميرة" ||
+      username === "إيناس" ||
       username === "ميرنا"
     ) {
       if (studyHours >= 0 && studyHours < 51) {
