@@ -7,6 +7,13 @@ body {
 
 @layer components {
   .btn {
-    @apply px-5 py-2 shadow-lg transition hover:-translate-y-0.5 transform mt-2 text-lg rounded-lg;
+    @apply px-5 py-2 shadow-lg transition hover:-translate-y-0.5 transform text-lg rounded-lg;
+  }
+  .form-input {
+    @apply w-full px-3 py-2 rounded-md border-2 border-gray-100 focus:outline-none mt-2 focus:border-purple-500 focus:invalid:border-red-600;
+  }
+
+  .form-heading {
+    @apply text-3xl font-bold;
   }
 }

@@ -34,6 +34,12 @@ const Navbar = () => {
             الدكاترة
           </NavLink>
           <NavLink
+            to="/GPA"
+            className="p-4 md:p-2 cursor-pointer focus:text-red-500"
+          >
+            احسب تقديرك
+          </NavLink>
+          <NavLink
             to="/faqs"
             className="p-4 md:p-2 cursor-pointer focus:text-red-500"
           >
