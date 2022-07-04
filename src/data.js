@@ -16,6 +16,9 @@ import DrAhmed from "./images/Dr-Ahmed.svg";
 import ahmedSound from "./audio/ahmed.mp3";
 import mostafaSound from "./audio/mostafa.mp3";
 import manalSound from "./audio/manal.mp3";
+import hananSound from "./audio/hanan.mp3";
+import rehabSound from "./audio/rehab.mp3";
+import shoroukSound from "./audio/shorouk.mp3";
 import drAhmedSound from "./audio/dr-ahmed.mp3";
 
 const students = [
@@ -49,6 +52,7 @@ const students = [
     name: "رحاب عنتر",
     GPA: "التقدير: جيد",
     imgURL: Rehab,
+    soundURL: rehabSound,
     description:
       "غلباوية، تعشق ارتكاب الجرائم، والدكتور هيجيب لنا امتحان سهل عشان خاطر أبوها",
   },
@@ -57,6 +61,7 @@ const students = [
     name: "شروق أشرف",
     GPA: "التقدير: جيد",
     imgURL: Shorouk,
+    soundURL: shoroukSound,
     description:
       "بتحب الدكتورة ريهام، عندها طاقة غير مُبررة في المناهدة، وبترد على الجملة بمقال",
   },
@@ -65,6 +70,7 @@ const students = [
     name: "حنان نادي",
     GPA: "التقدير: جيد",
     imgURL: Hanan,
+    soundURL: hananSound,
     description: "مدمنة شاي بلبن، كان هيضيعها التيرم الماضي، وبنحاول نعالجها",
   },
   {
