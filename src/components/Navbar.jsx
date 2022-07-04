@@ -18,36 +18,42 @@ const Navbar = () => {
           <NavLink
             to="/"
             className="p-4 md:p-2 cursor-pointer focus:text-red-500"
+            onClick={() => setNav(!nav)}
           >
             الرئيسية
           </NavLink>
           <NavLink
             to="/about"
             className="p-4 md:p-2 cursor-pointer focus:text-red-500"
+            onClick={() => setNav(!nav)}
           >
             تعرف علينا
           </NavLink>
           <NavLink
             to="/subjects"
             className="p-4 md:p-2 cursor-pointer focus:text-red-500"
+            onClick={() => setNav(!nav)}
           >
             الدكاترة
           </NavLink>
           <NavLink
             to="/GPA"
             className="p-4 md:p-2 cursor-pointer focus:text-red-500"
+            onClick={() => setNav(!nav)}
           >
             احسب تقديرك
           </NavLink>
           <NavLink
             to="/faqs"
             className="p-4 md:p-2 cursor-pointer focus:text-red-500"
+            onClick={() => setNav(!nav)}
           >
             الأسئلة الأكثر شيوعا
           </NavLink>
           <NavLink
             to="/contact"
             className="py-2 px-4 cursor-pointer  md:p-2 rounded-md hover:bg-purple-800 transition duration-200 bg-purple-900 text-white"
+            onClick={() => setNav(!nav)}
           >
             تواصل معنا
           </NavLink>
