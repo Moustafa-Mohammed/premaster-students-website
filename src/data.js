@@ -19,6 +19,7 @@ import manalSound from "./audio/manal.mp3";
 import hananSound from "./audio/hanan.mp3";
 import rehabSound from "./audio/rehab.mp3";
 import shoroukSound from "./audio/shorouk.mp3";
+import enasSound from "./audio/enas.mp3";
 import drAhmedSound from "./audio/dr-ahmed.mp3";
 
 const students = [
@@ -44,6 +45,7 @@ const students = [
     name: "إيناس محمد",
     GPA: "التقدير: جيد",
     imgURL: Enas,
+    soundURL: enasSound,
     description:
       "مشغولة دايما، كل محاضرة تقولنا عندي اجتماع خدمة عامة ولو محضرتش هيعتبروني منقطعة",
   },
